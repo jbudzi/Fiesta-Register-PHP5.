@@ -1,0 +1,112 @@
+html
+{
+	background-image: url( "http://oi40.tinypic.com/25zjxvk.jpg" );
+	font-family:verdana;
+	font-size:14px;
+}
+
+a
+{
+	color:inherit;
+}
+
+#wrap
+{
+	width:800px;
+	margin:auto;
+}
+
+#form
+{
+	position:absolute;
+	top: 25%;
+	left:35%;
+	background-color:white;
+	width: 30%;
+	height:30%;
+	border: 1px solid #C0C0C0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius:5px;
+	-khtml-border-radius: 5px;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#form label
+{
+	display:block;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+#form input
+{
+	border: 1px solid #C0C0C0;
+	display:block;
+	width:50%;
+	margin:auto;
+	margin-top:1%;
+	margin-bottom:1%;
+	text-align:center;
+}
+
+#form button
+{
+	border: 1px solid #C0C0C0;	
+}
+
+#creds
+{
+	position:absolute;
+	top:85%;
+	left:35%;
+	height:5%;
+	width: 30%;
+	border: 1px solid #C0C0C0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius:5px;
+	-khtml-border-radius: 5px;
+	background-color:white;
+	text-align:center;
+	font-weight:bold;
+}
+
+#message
+{
+	position:absolute;
+	top: 25%;
+	left:25%;
+	background-color:white;
+	width: 45%;
+	height:10%;
+	border: 1px solid #C0C0C0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius:5px;
+	-khtml-border-radius: 5px;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.error
+{
+	color:red;
+	padding-top:15px;
+	width:80%;
+}
+
+.succ
+{
+	color:green;
+	padding-top:15px;
+	width:80%;
+}
